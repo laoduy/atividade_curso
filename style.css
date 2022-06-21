@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("imagens/back.jpg");
+}
+
+#imagem1{
+    float: left;
+}
+
+#imagem1 img{
+    width: 350px;
+    height: 600px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#text {
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 3px;
+}
+
+#text h1{
+    text-align: center;
+}
+
+#text p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3px;
+}
+
+footer{
+    padding-top: 3%;
+    font-size: 16px;
+    padding-left: 49%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
